@@ -23,7 +23,7 @@ id, number`);
 
   return (
     <>
-      <h2 className='text-xl font-bold mb-2'>Input</h2>
+      <h1 className='text-xl font-bold mb-2'>Input</h1>
       <p>
         This tool will generate branded types for TypeScript based on the input data. The input data
         should be in CSV or Tab separated format.
@@ -37,7 +37,7 @@ id, number`);
       />
       <Button onClick={handleGenerate}>Generate</Button>
       {errorMessage && <p className='text-red-600 font-semibold mb-4'>{errorMessage}</p>}
-      <h2 className='text-xl font-bold mb-2'>Output</h2>
+      <h1 className='text-xl font-bold mb-2'>Output</h1>
       <p>
         It is generated based on the best practices described in the following article. For more
         information, please{' '}
