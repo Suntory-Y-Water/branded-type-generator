@@ -39,17 +39,17 @@ id, number`);
       {errorMessage && <p className='text-red-600 font-semibold mb-4'>{errorMessage}</p>}
       <h1 className='text-xl font-bold mb-2'>Output</h1>
       <p>
-        It is generated based on the best practices described in the following article. For more
-        information, please{' '}
+        It is generated based on the best practices described in the following articles. For more
+        information, please see this{' '}
         <a
           href='https://qiita.com/uhyo/items/de4cb2085fdbdf484b83'
           target='_blank'
           rel='noopener noreferrer'
           className='text-blue-500 hover:underline'
         >
-          click here
-        </a>{' '}
-        to review the article.
+          Branded Type Best Practices Search article
+        </a>
+        .
       </p>
       <Textarea
         className='bg-gray-100'
